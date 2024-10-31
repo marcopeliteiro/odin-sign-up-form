@@ -33,13 +33,16 @@ body{
     width:50%;
     background-color: darkgrey;
     height: 100vh;
-    
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
 
 .formi{
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .middleRightRow {
@@ -47,18 +50,27 @@ body{
 }
 
 
-p, button, h1, h3{
-    margin-left: 20px;
+.row{
+    display: flex;
+    gap: 100px;
 }
 
 .rightTextArea{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-.btn{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.rightTextArea, .btn, .account{
+    margin-left: 20px;
+}
 
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.forMargin{
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 input:focus{
