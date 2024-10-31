@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('/webfontkit-20241031-072508/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('/webfontkit-20241031-072508/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    font-family: 'source_sans_proregular',serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width:50%;
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size:cover;
+    height: 100vh;
+}
+
+.right{
+    width:50%;
+    background-color: darkgrey;
+    height: 100vh;
+    
+}
+
+.formi{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middleRightRow {
+    background-color: white;
+}
+
+
+p, button, h1, h3{
+    margin-left: 20px;
+}
+
+.rightTextArea{
+    margin-top: 100px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+input:focus{
+    border-style:solid;
+    border-color: blue;
+}
+
+input:invalid{
+    border-style:solid;
+    border-color: red;
+}
